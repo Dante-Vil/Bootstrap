@@ -303,3 +303,80 @@ footer {
   text-align: center;
 }
 
+/*****************************/ 
+/******* Media Queries *******/
+/*****************************/
+
+@media screen and (max-width: 801px) {
+  .contactpage-footer {
+    position: initial;
+    width: initial;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .contactpage-container {
+    flex-flow: column;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  .nav {
+    flex-flow: column;
+  }
+
+  .nav-link {
+    padding: 1%;
+  }
+
+  .fas {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+
+  .nav-link:hover {
+    transition: all 0.2s;
+  }
+
+  .cards-container {
+    flex-flow: column;
+    margin-top: 2.5%;
+  }
+
+  .card1, .card2, .card3 {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .l-container {
+    flex-flow: column;
+  }
+
+  .s-list-spacep {
+    display: none;
+  }
+
+  .contactpage-footer {
+    position: initial;
+    width: initial;
+  }
+
+  .contactpage-container {
+    min-height: 100vh;
+  }
+
+  .contactpage-left {
+    padding-left: 2.7%;
+    padding-right: 2.7%;
+  }
+
+  .mediummap {
+    display: none;
+  }
+
+  .smallmap {
+    display: initial;
+  }
+}
